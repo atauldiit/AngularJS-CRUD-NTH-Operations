@@ -1,0 +1,293 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+}
+.wrapper {
+	min-height: 960px;
+	width: 95%;
+	font-size: 12px;
+	padding-top: 50px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h5.title {
+	color: #ffffff;
+	margin: 5px 0;
+	font-weight: bold;
+}
+.text-center-white {
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+}
+.navbar.navbar-default.navbar-fixed-top {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#499bea+0,207ce5+100;Blue+3d+%237 */
+	background: #499bea; /* Old browsers */
+	background: -moz-linear-gradient(top, #499bea 0%, #207ce5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #499bea 0%, #207ce5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #499bea 0%, #207ce5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 ); /* IE6-9 */
+	color: #ffffff;
+	font-size: 14px;
+}
+.navbar-header .btn-primary {
+	color: #fff;
+	background-color: #a94442;
+	border-color: #333;
+}
+.navbar-default .navbar-header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#299a0b+0,299a0b+100;Green+Flat+%231 */
+	background: #299a0b; /* Old browsers */
+	background: -moz-linear-gradient(top, #299a0b 0%, #299a0b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #299a0b 0%, #299a0b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #299a0b 0%, #299a0b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#299a0b', GradientType=0 ); /* IE6-9 */
+	width: 100%;
+}
+.navbar-default .navbar-brand {
+	color: #000000;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #ffffff;
+}
+.nav-tabs {
+	border-bottom: 5px solid #337ab7;
+	padding-bottom: 15px;
+	background: #FFFFFF;
+}
+.nav-tabs>li>a {
+	margin-right: 2px;
+	line-height: 1.42857143;
+	border: 1px solid #aaaaaa;
+	border-radius: 4px 4px 0 0;
+}
+#empForm h3.text-center {
+	color: #ffffff;
+}
+.bgColor-Maganda {
+	background-color: #a94442;
+}
+.bgColor-blue {
+	background-color: #337ab7;
+}
+.bgColor-blue a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+form#empForm, form#editForm {
+	padding: 0 35px 15px;
+	font-weight: normal;
+	margin-top: 20px;
+}
+.table.table-striped.viewQuote {
+	border-collapse: separate;
+	border-spacing: 1px;
+	border: 1px solid brown;
+}
+.table.table-striped.viewQuote h5.title {
+	margin: 5px;
+}
+.table.table-striped.addQuote
+{
+	
+}
+.table.table-striped.addQuote tr, .table.table-striped.viewQuote tr {
+	font-size: 12px;
+}
+.table.table-striped.addQuote tr, .table.table-striped.viewQuote tr:nth-child(odd)
+{
+	
+}
+.table.table-striped.addQuote tr, .table.table-striped.viewQuote tr:nth-child(even)
+{
+	
+}
+.table.table-striped.viewQuote tr th, .table.table-striped.viewQuote tr td {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+.table.table-striped.addQuote tr .form-control, .table.table-striped.viewQuote tr .form-control {
+	font-weight: normal;
+}
+.table.table-striped.viewQuote tr label {
+	padding: 0 5px;
+	font-weight: bolder;
+}
+.table.table-striped.viewQuote tr .form-control {
+	font-weight: normal;
+	background-color: #f5f5f5;
+	color: #000000;
+	height: 25px;
+	padding: 0 5px;
+}
+.table.table-striped.viewQuote tr .form-control::-moz-placeholder {
+ color: #ffffff;
+}
+.table.table-striped.viewQuote tr .form-control:-ms-input-placeholder {
+color:#999
+}
+.table.table-striped.viewQuote tr .form-control::-webkit-input-placeholder {
+color:#999
+}
+.table.table-striped.addQuote tr td, .table.table-striped.addQuote tr th {
+	padding: 5px 2px;
+}
+.viewQuote .txtRegister label {
+}
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 12px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+label.gender {
+	padding-top: 0 !important;
+}
+.table-responsive table {
+	font-size: 12px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	border: 1px solid brown;
+}
+table.table-thead-gradient thead tr {
+	background: rgba(183,222,237,1);
+	/* Old Browsers */background: -moz-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+	/* FF3.6+ */background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183,222,237,1)), color-stop(50%, rgba(113,206,239,1)), color-stop(51%, rgba(33,180,226,1)), color-stop(100%, rgba(183,222,237,1)));
+	/* Chrome, Safari4+ */background: -webkit-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+	/* Chrome10+,Safari5.1+ */background: -o-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+	/* Opera 11.10+ */background: -ms-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+	/* IE 10+ */background: linear-gradient(to bottom, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+    /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=0 );
+/* IE6-9 */
+}
+table.table-thead-gradient tr th, table.table-thead-gradient tbody tr td {
+	border-right: 1px solid black;
+	text-align: center;
+}
+table.table-thead-gradient thead tr th {
+	padding: 5px 0;
+}
+.table.table-striped.viewQuote tr.sum-Total {
+	background-color: #3c763d;
+	color: #fff;
+}
+.table.table-striped.viewQuote tr.sum-Total td {
+	padding: 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.search-box {
+	padding-bottom: 0;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	vertical-align: middle;
+	padding: 0 5px;
+}
+form#empForm sup, form#editForm sup, .viewQuote sup, sup {
+	color: #FF0000;
+}
+.table.table-striped tr {
+	background-color: #ffffff;
+}
+.tr_gradient {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1baaf7+1,0053d1+100 */
+	background: #1baaf7; /* Old browsers */
+	background: -moz-linear-gradient(top, #1baaf7 1%, #0053d1 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #1baaf7 1%, #0053d1 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #1baaf7 1%, #0053d1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1baaf7', endColorstr='#0053d1', GradientType=0 ); /* IE6-9 */
+}
+.textBgColortd {
+/*background-color: #AAAAAA;
+    color:#8a6d3b;*/
+}
+.table-striped a {
+	font-size: 12px;
+	font-weight: bold;
+}
+/********************************************* Start Edit and Insert pages **********************************************/
+.dataEditInsert{
+
+}
+#empForm.dataEditInsert h3.text-center{
+	color: #000000;
+	text-transform: capitalize;
+}
+
+#empForm.dataEditInsert label{
+	padding-left: 12px;
+}
+.dataEditInsert .oddRow{
+	background-color:#b7deed;
+}
+.dataEditInsert .EvenRow{
+	background-color:#def1f2;
+}
+/********************************************* End Edit and Insert pages **********************************************/
+/********************************************* pop up windows *****************************************************/
+label, input {
+	display: block;
+}
+input.text {
+	margin-bottom: 12px;
+	width: 95%;
+	padding: .4em;
+}
+fieldset {
+	padding: 0;
+	border: 0;
+	margin-top: 25px;
+}
+div#users-contain {
+	width: 350px;
+	margin: 20px 0;
+}
+div#users-contain table {
+	margin: 1em 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+div#users-contain table td, div#users-contain table th {
+	border: 1px solid #eee;
+	padding: .6em 10px;
+	text-align: left;
+}
+.ui-dialog .ui-state-error {
+	padding: .3em;
+}
+.validateTips {
+	border: 1px solid transparent;
+	padding: 0.3em;
+}
+
+/********************************************* *******************************************************/
+@media (min-width: 992px) {
+.col-md-offset-3 {
+	margin-left: 12%;
+}
+}
+
+@media screen and (max-width: 368px) {
+.wrapper {
+	min-width: 340px;
+}
+}
